@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+
+.hide {
+    display: none;
+}
+
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      background-color: #fff5d7;
+  }
+
+  #explainquiz {
+    background-color: #ff5e6c;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 25px 80px 25px 80px;
+}
+
+#explainquiz h1 {
+  color: whitesmoke;
+}
+
+#timer {
+  background-color: #ff5e6c;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 25px 80px 25px 80px;
+  color: whitesmoke;
+}
+
+.container {
+      width: 100%;
+      max-width: 75%;
+      background-color: #ff5e6c;
+      border-radius: 5px;
+      padding: 10px;
+}
+
+  div#player-score {
+    color: whitesmoke;
+}
+
+#high-scores {
+    width: 100%;
+    max-width: 75%;
+    background-color: #ff5e6c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#question {
+      padding: 30px;
+      font-size: 42px;
+      color:  whitesmoke
+  }
+
+.start {
+    display: flex;
+    justify-content: center;
+}
+
+button#start-btn {
+  margin: 75px;
+  width: 300px;
+  height: 75px;
+  background-color: #ffaaab;
+  font-size: large;
+  border-radius: 5px;
+}
+
+div#answer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div#answer-buttons button {
+  margin: 75px;
+  width: 300px;
+  height: 75px;
+  background-color: #ffaaab;
+  font-size: large;
+  border-radius: 5px;
+}
+

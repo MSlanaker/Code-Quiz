@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <div id="explainquiz">
+        <h1>Click start to test your JavaScript knowledge!</h1>
+    </div>
+
+    
+    <div id="timer" class="hide">Time: </div>
+    
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">question</div>
+            <hr>
+            <div id="answer-buttons" class="btn-column">
+                <button class="btn" id = "answerA">Answer 1</button>
+                <button class="btn" id = "answerB">Answer 2</button>
+                <button class="btn" id = "answerC">Answer 3</button>
+                <button class="btn" id = "answerD">Answer 4</button>
+            </div>
+
+        </div>
+        <div class="start">
+            <button id="start-btn" class="start-btn btn">Start</button>
+        </div>
+
+        <div id="score" class="hide">
+            <h1>Your Score:</h1>
+        </div>
+
+        <div id="score-page" class="hide">
+            <div id="player-score">
+                Your Score: 
+    
+            </div>
+
+            <div id="player-initials" class="hide">
+                <input type="text" size = "40" placeholder="Enter you initials for high score" name="intials" id="initials"/>
+                <button id="submit">Submit</button>
+            </div>
+    
+            
+        </div>
+
+        
+
+    </div>
+
+    <div id="high-scores" class="hide">High Scores: 
+        <ul id="scores">
+
+        </ul>
+    </div>
+
+ 
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
