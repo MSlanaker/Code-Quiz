@@ -1,4 +1,4 @@
-# # Code Quiz
+# Code Quiz
 ## Description
 A short, timed quiz testing some JavaScript basics.
 - Answer the questions in the alloted time.
